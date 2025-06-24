@@ -1,20 +1,18 @@
-# Ignore node modules
-node_modules/
+# Ignore node modules in all directories
+**/node_modules/
 
-# Ignore logs
+# Environment files
+.env
+
+# Log files
 logs
 *.log
 
-# Ignore environment files
-.env
-
-# macOS system files
+# System files
 .DS_Store
-
-# Windows system files
 Thumbs.db
 
-# IDE folders
+# IDE/workspace configs
 .vscode/
 .idea/
 *.swp
