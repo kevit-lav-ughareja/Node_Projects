@@ -1,0 +1,20 @@
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+logs
+*.log
+
+# Ignore environment files
+.env
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDE folders
+.vscode/
+.idea/
+*.swp
